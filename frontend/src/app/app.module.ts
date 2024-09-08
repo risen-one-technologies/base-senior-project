@@ -6,7 +6,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { LayoutModule } from '@angular/cdk/layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Material Form Controls
@@ -65,9 +65,10 @@ import { LoginComponent } from './login/login.component';
       LoginComponent,
       AppComponent
     ],
+    exports: [],
+    bootstrap: [AppComponent],
     imports: [
         BrowserModule,
-        HttpClientModule,
         LayoutModule,
         FormsModule,
         ReactiveFormsModule,
@@ -112,11 +113,9 @@ import { LoginComponent } from './login/login.component';
         ReactiveFormsModule,
         AppRoutingModule,
     ],
-    exports: [],
     providers: [
         MatSnackBar,
-    ],
-    bootstrap: [AppComponent],
+        provideHttpClient(withInterceptorsFromDi()),
+    ]
   })
   export class AppModule {}
-  

@@ -11,14 +11,35 @@ Before you start, ensure you have the following:
 - **Node.js and npm**: Install Node.js and npm from [here](https://nodejs.org/).
 - **Angular CLI**: Install the Angular Command Line Interface. Instructions are available [here](https://angular.io/cli).
 
+## Inital Setup
+
+### Step 1: Setup the Repository
+
+Download the project repository created for your class to your local machine if not already done.
+
+- Command: `git clone https://github.com/ucmo-cs/Senior_Project_Team_Name.git`
+
+Download this base project repo.
+
+- Command: `git clone https://github.com/risen-one-technologies/senior-project-template.git`
+
+Copy the contents to your project folder and push them to your repo.
+
+- Command: `cp LICENSE /path/to/your/Senior_Project_Team_Name`
+- Command: `cp README.md /path/to/your/Senior_Project_Team_Name`
+- Command: `cp -r backend/ /path/to/your/Senior_Project_Team_Name`
+- Command: `cp -r frontend/ /path/to/your/Senior_Project_Team_Name`
+- Command: `cd /path/to/your/Senior_Project_Team_Name`
+- Command: `git add .`
+- Command: `git commit -m "Initial commit"`
+
 ## Backend Setup
 
-### Step 1: Clone the Repository
+### Step 1: Navigate to the backend folder
 
-Download the project repository to your local machine.
+Navigate to the backend folder.
 
-- Command: `git clone https://github.com/your-repo/my-serverless-app.git`
-- Command: `cd my-serverless-app/backend`
+- Command: `cd backend`
 
 ### Step 2: Install Serverless Framework
 
@@ -28,7 +49,7 @@ Install the Serverless Framework, which will help you manage the serverless back
 
 ### Step 3: Install Project Dependencies
 
-Navigate to the backend directory of the project and install the necessary dependencies.
+Install the necessary dependencies.
 
 - Command: `npm install`
 
@@ -70,12 +91,11 @@ The Lambda function is responsible for handling login requests. Here's a breakdo
   
 ## Frontend Setup
 
-### Step 1: Clone the Repository
+### Step 1: Navigate to the frontend folder
 
-Download the project repository to your local machine if not already done.
+Navigate to the frontend folder
 
-- Command: `git clone https://github.com/risen-one-technologies/senior-project-template.git`
-- Command: `cd senior-project-template/frontend`
+- Command: `cd ../frontend`
 
 ### Step 2: Install Angular Project Dependencies
 
