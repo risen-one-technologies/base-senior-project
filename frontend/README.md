@@ -4,8 +4,8 @@
 
 Download the project repository to your local machine if not already done.
 
-- Command: `git clone https://github.com/risen-one-technologies/senior-project-template.git`
-- Command: `cd senior-project-template/frontend`
+- Command: `git clone https://github.com/risen-one-technologies/base-senior-project.git`
+- Command: `cd frontend`
 
 ### Step 2: Install Angular Project Dependencies
 
