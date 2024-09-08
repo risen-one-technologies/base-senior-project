@@ -9,7 +9,7 @@ Before you start, ensure you have the following:
 - **AWS Account**: Create an account on [AWS](https://aws.amazon.com/) if you don’t have one.
 - **AWS CLI**: Install and configure the AWS Command Line Interface with your account details. Instructions can be found [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html).
 - **Node.js and npm**: Install Node.js and npm from [here](https://nodejs.org/).
-- **Angular CLI**: Install the Angular Command Line Interface. Instructions are available [here](https://angular.io/cli).
+- **Angular CLI**: Install the Angular Command Line Interface. Instructions are available [here](https://angular.dev/tools/cli).
 
 ## Inital Setup
 
