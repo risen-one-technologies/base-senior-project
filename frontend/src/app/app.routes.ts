@@ -4,6 +4,7 @@ import { LoginComponent } from './components/login/login.component';
 import { NgModel } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { DailyStatusComponent } from './components/daily-status/daily-status.component';
+import { AdminComponent } from './pages/admin/admin.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -13,6 +14,8 @@ export const routes: Routes = [
     path: 'daily-status',
     component: DailyStatusComponent
   },
+  { path: 'admin', component: AdminComponent },
+
   ];
 
   @NgModule({
